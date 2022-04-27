@@ -111,7 +111,7 @@ a:hover{
     flex-direction: row;
     margin-left: 2rem;
     padding: 1rem;
-    margin-bottom: -12px;
+    margin-bottom: 0.5rem;
     transform: scale(1.5);
 
 }
