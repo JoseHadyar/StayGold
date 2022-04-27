@@ -286,7 +286,7 @@ a:hover{
     text-align: center;
     border-radius: 20px;
     width: 300px;
-    height: 420px;
+    height: 450px;
     padding: 16px;
     /* borde: grosor, tipo  color */
     border: 5px double #aca7a4;
@@ -350,6 +350,7 @@ a:hover{
     border: 1px solid #969292;
     border-radius: 1rem;
     padding: 5px;
+    margin-top: 1rem;
 }
 
 .tarjeta__monto{
