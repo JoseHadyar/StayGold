@@ -41,69 +41,13 @@ ul {
 }
 
 
- .header__imagen{
-     width: 125px;
-     height: 125px;
-     padding: 16px;
-     
-
-}
-
-.header__nav{
-    width: 100%;
-    
-}
-
-.header__nav__lista{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-    align-items: center;
-    gap: 2rem;
-}
-
-a{
-    text-decoration: none;
-    font-size: 12px;
-}
-
-a:hover{
-    color: silver;
-}
-
-.header__nav__enlace{
-    
-    color: black;
-    text-decoration: none;
-    text-transform: uppercase;
-    
-}
-
-.header__barra{
-    padding: 5px;
-    
-
-}
-
-.header__barra input{
-    width: 250px;
-    height: 30px;
-    padding: 0 20px;
-    font-size: 12px;
-    outline: none;
-    border: 2px solid silver;
-    border-radius: 30px;
-    margin-left: 2rem;
-
-}
+.navbar {
+    background-image: url(../imagenes/Mármol-blanco-header.jpg);
  
-.header__titulo{
-    padding: 2rem;
-    font-weight: 300;
-    font-size: 2rem;
 }
 
+
+ 
 .header__iconos{
    max-width: 55px;
     height: 55px;
@@ -113,6 +57,7 @@ a:hover{
     padding: 1rem;
     margin-bottom: 0.5rem;
     transform: scale(1.5);
+    text-decoration: none;
 
 }
 
@@ -248,7 +193,7 @@ a:hover{
     text-align: center;
     border-radius: 20px;
     width: 300px;
-    height: 450px;
+    height: 460px;
     padding: 8px;
     /* borde: grosor, tipo  color */
     border: 5px double #aca7a4;
