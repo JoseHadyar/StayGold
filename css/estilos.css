@@ -14,9 +14,6 @@ ul {
 }
 
 
-#burguer{
-    display: none;
-}
 
 .bodyindex{
    background-image: url(../imagenes/nosirveparanada6.jpg);
@@ -46,6 +43,10 @@ ul {
  
 }
 
+.navbar-brand{
+    font-size: 25px;
+  
+}
 
  
 .header__iconos{
@@ -362,7 +363,7 @@ ul {
 }
 
 .section4__subtitle{
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 
@@ -371,6 +372,7 @@ ul {
     height: 150px;
     border-radius: 16px;
     object-fit: cover;
+    margin-bottom: 8px;
 }
 
 
@@ -769,6 +771,11 @@ color: #3f3d3c;
       
     }
 
+    .navbar-brand{
+        font-size: 40px;
+        
+    }
+
     .header__imagen{
         margin-left: 0.5rem;
     }
@@ -853,6 +860,11 @@ color: #3f3d3c;
         color: #0c0c0c;
     }
    
+
+    .navbar-brand{
+        font-size: 40px;
+        
+    }
 
 
     .header__contein{
