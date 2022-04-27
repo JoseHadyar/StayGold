@@ -122,47 +122,9 @@ a:hover{
                             /* Comienza el main - Primera seccion */
 
 
-.carrusel__contein {
-    border: 1px solid #ACA7A4;
-    height: 200px;
-    position: relative;
-    margin-top: 1px;
-}
-
-
-.carrusel__div{
-    height: 100%;
-}
-
-.carrusel__flechas{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-#contenedorcarrusel{
-    height: 200px;
-    overflow: hidden;
-
-}
-
-.carrusel__contein img{
-    height: 100%;
-    width: 100%;
-}
 
 
 /* segunda seccion */
-
-.grilla__contenedor {
-    width: 100%;
-}
-
 
 /* Elemento Padre */
 
@@ -287,7 +249,7 @@ a:hover{
     border-radius: 20px;
     width: 300px;
     height: 450px;
-    padding: 16px;
+    padding: 8px;
     /* borde: grosor, tipo  color */
     border: 5px double #aca7a4;
     border-bottom: 5px ridge #918d8b;
@@ -435,10 +397,14 @@ a:hover{
 
 
 .section4__title{
-    color: rgb(168, 158, 158);
+    color: rgb(255, 255, 255);
     text-align: center;
     margin-top: 1rem;
-    font-size: 40px;
+    font-size: 55px;
+}
+
+.section4__title b{
+    color: yellow;
 }
 
 .section4__tarjeta{
@@ -448,7 +414,7 @@ a:hover{
     border: 0px groove #aca7a4;
     border-bottom: 5px ridge #918d8b;
     width: 250px;
-    height: 250px;
+    height: 285px;
     text-align: center;
     display: inline-block;
 
