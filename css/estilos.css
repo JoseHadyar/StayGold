@@ -413,15 +413,14 @@ ul {
 
 
 .whatsapp{
-    font-size: 25px;
+    font-size: 35px;
     position: fixed;
     z-index: 10;
     bottom: 75px;
     right: 50px;
-    background-color: green;
-    padding: 10px;
-    color: white;
-    border-radius: 100px;
+    background-color: rgb(0, 0, 0);
+    padding: 8px;
+    border-radius: 100%;
     display: inline;
     text-decoration: none;
 }
