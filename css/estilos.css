@@ -413,7 +413,6 @@ ul {
 
 
 .whatsapp{
-    font-size: 35px;
     position: fixed;
     z-index: 10;
     bottom: 75px;
@@ -859,7 +858,9 @@ color: #3f3d3c;
         color: #0c0c0c;
     }
    
-
+    .whatsapp{
+        display: none;
+    }
     .navbar-brand{
         font-size: 40px;
         
