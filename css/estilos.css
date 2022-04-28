@@ -457,11 +457,52 @@ ul {
     align-items: center;
 }
 
+.producto__contenedor{
+     display: flex;
+    justify-content: center;
+    margin:1rem ;
+    flex-wrap: wrap;
+}
 
 
 
 
-    
+.tarjeta__productos{
+    display: flex;
+    justify-content: center;
+    margin:1rem ;
+    flex-wrap: wrap;
+}
+
+.tarjeta__productos{
+    background-color: rgba(100, 100, 100, 0.438);
+    color: black;
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    padding: 1rem;
+    /* borde: grosor, tipo  color */
+
+    margin: 1rem;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.tarjeta__productos__imagen{
+    width: 100%;
+    height: 280px;
+}
+
+.tarjeta__productos__titulo{
+    font-size: 25px;
+    color: #c2bf00;
+    margin: 3px;
+}
+
+
+
+
+
 
 .flex__container{
     display: flex;
