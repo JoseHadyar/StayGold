@@ -491,6 +491,8 @@ ul {
 .tarjeta__productos__imagen{
     width: 100%;
     height: 280px;
+    
+
 }
 
 .tarjeta__productos__titulo{
@@ -501,8 +503,19 @@ ul {
 
 
 
+.encabezado div{
+    overflow: hidden;
 
+}
 
+.encabezado__img{
+    transition: all 500ms ease;
+
+}
+        
+.encabezado__img:hover{
+    filter: saturate(180%);
+}
 
 .flex__container{
     display: flex;
