@@ -803,6 +803,43 @@ color: #3f3d3c;
 
 }
 
+/* ----------------------------------- Catalogo*/
+
+.bodycatalogo{
+    background-image: url(../imagenes/bodycatalogo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+ 
+ }
+
+
+#galeria .col-lg-4{
+    margin: 0;
+    padding: 25px;
+}
+
+#galeria img {
+    width: 100%;
+    height: 300px;
+    transition: all 500ms ease;
+}
+
+#galeria img:hover{
+    border: 5px solid rgba(255, 255, 255, 0);
+    transition: all 500ms ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* MediaQueris para tablets */
