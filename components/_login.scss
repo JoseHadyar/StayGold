@@ -17,46 +17,60 @@
     border-radius: 5px;
     text-align: center;
     box-shadow: 7px 13px 37px 5px #000;
+
+    &__title{
+        font-size: 45px;
+        margin-bottom: 20px;
+       
+    }
+
+    &__control{
+        width: 100%;
+        background-color: #8f8f84;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 1rem;
+        border: 1px solid #5f5d5c;
+        font-size: 1rem;
+        color: #3f3d3c;
+    }
+
+    & p {
+        height: 40px;
+        font-size: 1rem;
+        margin-bottom: 1px;
+        margin-top: 1px;
+    }
+
+    & a{
+        color: white;
+        text-decoration: none;
+    }
+
+    & a:hover{
+        color: white;
+        text-decoration: underline;
+    }
+
+    &__boton{
+        width: 100%;
+        background-color: #5F5D5C;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1rem;
+        border: none;
+    
+    }
+    
+
 }
 
-.formulario__title{
-    font-size: 44px;
-    margin-bottom: 20px;
-}
 
-.formulario__control{
-    width: 100%;
-    background-color: #8f8f84;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    border: 1px solid #5f5d5c;
-    font-size: 1rem;
-    color: #3f3d3c;
-}
 
-.formulario p {
-    height: 40px;
-    font-size: 1rem;
-    margin-bottom: 1px;
-    margin-top: 1px;
-}
-.formulario a{
-    color: white;
-    text-decoration: none;
-}
 
-.formulario a:hover{
-    color: white;
-    text-decoration: underline;
-}
 
-.formulario__boton{
-    width: 100%;
-    background-color: #5F5D5C;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    border: none;
 
-}
+
+
+
+
