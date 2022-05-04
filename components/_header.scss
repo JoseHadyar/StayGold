@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.bodyindex{
+   background-image: url(../imagenes/nosirveparanada6.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+
+}
+
+
+.header__contein{
+    width: 100%;
+    height: 100px;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    box-shadow: 0 2px 5px rgb(143, 143, 141);
+    align-items: center;
+    background-image: url(../imagenes/Mármol-blanco-header.jpg);
+    background-attachment: fixed;
+
+}
+
+
+.navbar {
+    background-image: url(../imagenes/Mármol-blanco-header.jpg);
+ 
+}
+
+.navbar-brand{
+    font-size: 25px;
+  
+}
+
+ 
+.header__iconos{
+   max-width: 55px;
+    height: auto;
+    margin-right: 4rem;
+    padding: 1rem;
+    transform: scale(1.5);
+
+}

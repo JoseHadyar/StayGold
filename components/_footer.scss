@@ -1,0 +1,42 @@
+.footer{
+    background-image: url(../imagenes/Mármol-blanco-header.jpg);
+    width: 100%;
+    height: 100px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+
+}
+
+
+.footer__iconos{
+    max-width: 16px;
+    height: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    padding: 1rem;
+    bottom: 10px;
+    margin-right: 3rem;
+    margin-left: -15px;
+    transform: scale(1.5)
+}
+
+
+.whatsapp{
+    position: fixed;
+    z-index: 10;
+    bottom: 75px;
+    right: 50px;
+    background-color: rgb(11, 20, 105);
+    /* background-color: rgb(0, 0, 0); */
+    padding: 8px;
+    border-radius: 100%;
+    display: inline;
+    text-decoration: none;
+}

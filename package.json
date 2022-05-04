@@ -1,0 +1,19 @@
+{
+  "name": "staygold.hadyar",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Jose Hadyar</h1>\r <h3 align=\"center\">A passionate frontend developer from Venezuela</h3>",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass estilos.scss ./css/estilos.css -w --no-source-map -s compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseHadyar/StayGold.git"
+  },
+  "author": "Jose Hadyar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseHadyar/StayGold/issues"
+  },
+  "homepage": "https://github.com/JoseHadyar/StayGold#readme"
+}

@@ -1,0 +1,249 @@
+@import "./components/variables";
+@import "./components/header";
+@import "./components/main";
+@import "./components/footer";
+@import "./components/productos";
+@import "./components/promociones";
+@import "./components/contacto";
+@import "./components/login";
+@import "./components/catalogo";
+
+
+
+
+
+
+
+/* MediaQueris para tablets */
+
+@media screen and (max-width: 1024px) {
+    
+    .header__barra{
+        display: none;
+    }
+
+    .header__iconos{
+        display: none;
+    }
+
+
+    .header__nav__lista{
+        flex-direction: row;
+        margin-left: -1.5rem;
+      
+    }
+
+    .navbar-brand{
+        font-size: 40px;
+        
+    }
+
+    .header__imagen{
+        margin-left: 0.5rem;
+    }
+
+    .section3{
+        flex-direction:row;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .section4{
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .footer__iconos{
+        display: none;
+    }
+
+    .footer__span{
+        text-align: center;
+        align-items: center;
+    }
+
+   .grid{
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(4, 0.5fr) ;
+    grid-template-areas: 
+    "ele1 ele1 ele1 ele1"
+    "ele1 ele1 ele1 ele1"
+    "ele2 ele2 ele3 ele3"
+    "ele4 ele4 ele5 ele5";
+   }
+
+
+   .tarjeta__contenedor{
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+   .encabezado{
+       flex-wrap: wrap;
+   }
+
+   .productos{
+    flex-wrap: wrap;
+   }
+
+
+   .encabezado__izq{
+       padding-left: 1rem;
+   }
+
+   .encabezado__dere{
+       padding-right: 1rem;
+   }
+
+
+   .encabezado img{
+    max-width: 300px;
+   }
+
+   .encabezado__title{
+       font-size: 40px;
+   }
+
+}
+
+
+
+
+/* MediaQueris para mobiles */
+
+@media screen and (max-width: 600px) {
+    
+    #burguer{
+        display: inline-block;
+        font-size: 1.5rem;
+        color: #0c0c0c;
+    }
+   
+    .whatsapp{
+        display: none;
+    }
+    .navbar-brand{
+        font-size: 40px;
+        
+    }
+
+
+    .header__contein{
+        flex-direction: flex;
+    }
+
+    .header__imagen{
+      display: none;
+    }
+
+
+    .header__barra{
+        display: none;
+    }
+
+    .header__nav{
+        display: none;
+    }
+
+    .header__iconos{
+        display: none;
+    }
+
+ 
+    .grid{
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5,250px) ;
+        grid-template-areas:
+    
+        "ele1"
+        "ele2"
+        "ele3"
+        "ele4"
+        "ele5";
+    }
+
+ 
+    .section3{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    
+    .tarjeta{
+        margin-left: -1px;
+    }
+    
+    .section4{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer__iconos{
+        display: none;
+    }
+
+    .footer__span{
+        text-align: center;
+        align-items: center;
+    }
+
+   
+
+   /* Comienza PRODUCTOS */
+    
+   
+   .encabezado__img{
+    height:250px;
+    width: 250px;
+   }
+
+   .encabezado__title{
+    font-size: 30px;
+    }
+
+    .encabezado{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        justify-content: center;
+        overflow: hidden;
+        padding-top: 5rem;
+    }
+
+    .encabezado div{
+        height: 250px;
+        width: auto;
+        margin: 5px;
+        text-align: center;
+        overflow: hidden;
+        justify-content: center;
+       
+        
+    
+    }
+
+    .encabezado__izq{
+        padding-top: 2rem;
+    }
+
+    .encabezado__dere{
+        padding-bottom: 1rem;
+    }
+
+
+
+
+}
+    
+
+ 

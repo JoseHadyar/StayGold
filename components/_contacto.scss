@@ -1,0 +1,82 @@
+.contactobody{
+    background-image: url(../imagenes/nosirveparanada1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.formulariocontacto__contein{
+    width: 90%;
+    max-width: 450px;
+    background-color: #8f8f84;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 7px 13px 37px 3px #000;
+}
+
+.formulariocontacto__title{
+    font-size: 40px;
+    padding-bottom: 1rem;
+}
+
+
+.formulariocontacto__nickname{
+    font-size: 1rem;
+    color: #353433;
+}
+
+.formulariocontacto__nickname1{
+    margin-bottom: 1rem;
+}
+
+.formulariocontacto__cuadro{
+width: 50%;
+background-color: #8f8f84;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 1rem;
+border: 1px solid #5f5d5c;
+font-size: 1rem;
+color: #3f3d3c;
+}
+
+.formulariocontacto__title2{
+    padding-bottom: 1rem;
+    font-size: 25px;
+}
+
+.formulariocontacto__titleopciones2{
+    background-color: #8F8F84;
+    border: 2px ridge #5F5D5C;
+    border-radius: 5px;
+    color: #353433;
+    margin-bottom: 1rem;
+    border: double;
+
+}
+
+.formulariocontacto__texto{
+    width: 100%;
+    height: 200px;
+    margin-top: 2rem;
+    margin: 0 auto;
+    color: rgb(38, 41, 41);
+    font-size: 1rem;
+    background-color: #8f8f84;
+    border: 1px solid;
+    
+}
+
+.formulariocontacto__boton{
+    width: 50%;
+    height: 50%;
+    background-color: #5F5D5C;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: none;
+}
