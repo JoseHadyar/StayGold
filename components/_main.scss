@@ -120,15 +120,14 @@
     border-radius: 20px;
     width: 300px;
     height: 460px;
-    padding: 8px;
-    /* borde: grosor, tipo  color */
+    padding: 16px;
     border: 5px double #aca7a4;
     border-bottom: 5px ridge #918d8b;
     margin: 8px;
     overflow: hidden;
     display: inline-block;
     position: relative;
-    /* se activan 4 posiciones adicionales top left rigth botom */
+  
 
 }
 
@@ -154,7 +153,7 @@
 
 .tarjeta__titulo{
     font-size: 20px;
-    color: #ABA700;
+    color: $fontsubtitlecolor;
     margin: 1px;
 }
 
@@ -275,7 +274,8 @@
 }
 
 .section4__title b{
-    color: yellow;
+    color: $fonttitlecolor;
+
 }
 
 .section4__tarjeta{

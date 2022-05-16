@@ -16,6 +16,9 @@
 
 .encabezado__title{
     font-size: 75px;
+    color: $fonttitlecolor;
+    text-transform: uppercase;
+    box-shadow:4px 3px 2px 1px ;
 }
 
 .encabezado__img{
@@ -69,7 +72,7 @@
 
 .tarjeta__productos__titulo{
     font-size: 25px;
-    color: #c2bf00;
+    color: $fontsubtitlecolor;
     margin: 3px;
 }
 

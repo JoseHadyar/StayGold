@@ -50,10 +50,6 @@ ul {
 
  
 .header__iconos{
-   max-width: 55px;
-    height: auto;
-    margin-right: 4rem;
-    padding: 1rem;
-    transform: scale(1.5);
+    @extend .iconos;
 
 }

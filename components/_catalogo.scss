@@ -1,5 +1,5 @@
 .bodycatalogo{
-    background-image: url(../imagenes/bodycatalogo.jpg);
+    background-color: $bgcolor;
     background-attachment: fixed;
     background-size: cover;
  
@@ -21,3 +21,35 @@
     border: 5px solid rgba(255, 255, 255, 0);
     transition: all 500ms ease;
 }
+
+
+.titletest{
+   color: $fonttitlecolor;
+}
+
+.subtitletest{
+    color:$fontsubtitlecolor;
+}
+
+
+// Esto es un mapps
+
+$rrss: (
+    linkedin: #1d1d1d,
+    discord: #55acee
+);
+
+
+
+@each $name, $color  in $rrss{
+    .#{$name} {
+        background-color: $color;
+        margin: 2rem;
+        padding: 15px;
+        color: #fff;
+        border-radius: 20px;
+        text-decoration: none;
+
+
+    }
+}  
