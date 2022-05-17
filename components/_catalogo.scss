@@ -1,7 +1,7 @@
 .bodycatalogo{
     background-color: $bgcolor;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; 
  
  }
 
@@ -31,12 +31,22 @@
     color:$fontsubtitlecolor;
 }
 
+.rrss{
+    background-color: #968787;
+    width: 100%; 
+    height: 250px;
+    text-align: center;
+}
+
+
 
 // Esto es un mapps
 
 $rrss: (
-    linkedin: #1d1d1d,
-    discord: #55acee
+    linkedin: #1d1d1dd2,
+    discord: #b155eece,
+    gmail: rgba(230, 34, 20, 0.867),
+    facebook: rgba(20, 52, 230, 0.867)
 );
 
 
@@ -49,7 +59,5 @@ $rrss: (
         color: #fff;
         border-radius: 20px;
         text-decoration: none;
-
-
     }
 }  
