@@ -7,9 +7,16 @@
 @import "./components/contacto";
 @import "./components/login";
 @import "./components/catalogo";
-@import "./components/global";
 
 
+
+
+// Mediaqueris para Htv
+@media screen and (max-width: 1324px) {
+    .header__iconos{
+        margin: 10px;
+    }
+}
 
 
 
@@ -241,10 +248,12 @@
         padding-bottom: 1rem;
     }
 
-
-
-
 }
     
 
  
+@media screen and (max-width: 570px) {
+    #carouselExampleDark{
+        display: none;
+    }
+}

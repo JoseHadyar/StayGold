@@ -1,3 +1,8 @@
+.d-block {
+    width: 100%;
+    height: 350px;
+}
+
 
 .grid {
     border: 2px solid #ACA7A4;
@@ -5,27 +10,28 @@
 
     display: grid;
 
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,0.5fr) ;
-    grid-template-areas: 
-    "ele1 ele1 ele1 ele1"
-    "ele2 ele3 ele4 ele5";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    grid-template-areas:
+        "ele1 ele1 ele1 ele1"
+        "ele2 ele3 ele4 ele5";
     row-gap: 5px;
     column-gap: 5px;
     gap: 2px;
     justify-content: center;
     align-content: center;
+
+
+    &__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: all 500ms ease-out;
+    }
 }
 
 
-.grid__img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: all 500ms ease-out;
-}
-
-.capa{
+.capa {
     position: absolute;
     top: 0;
     width: 100%;
@@ -38,22 +44,22 @@
 }
 
 
-.grid__hijo:hover > .capa{
+.grid__hijo:hover>.capa {
     opacity: 1;
     visibility: visible;
 }
 
-.grid__hijo:hover > .capa h3{
+.grid__hijo:hover>.capa h3 {
     margin-top: 150px;
     font-size: 50px;
 }
 
-.capa h3{
+.capa h3 {
     color: white;
     transition: all 500ms ease-out;
 }
 
-.grid__hijo:hover > img{
+.grid__hijo:hover>img {
     transform: scale(1.3);
 }
 
@@ -61,59 +67,59 @@
 
 /* Elementos Hijos */
 
-.grid__hijo{
-    color: #fff;
+.grid__hijo {
+
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+
+
+    &--1 {
+
+        grid-area: ele1;
+        overflow: hidden;
+        position: relative;
+    }
+
+    &--2 {
+
+        grid-area: ele2;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &--3 {
+
+        grid-area: ele3;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &--4 {
+        grid-area: ele4;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &--5 {
+        grid-area: ele5;
+        position: relative;
+        overflow: hidden;
+    }
 }
 
-.grid__hijo--1{
-    background-color: rgba(81, 107, 107, 0);
-    grid-area: ele1;
-    overflow: hidden;
-    position: relative;
-}
-
-.grid__hijo--2{
-    background-color: rgb(218, 175, 34);
-    grid-area: ele2;
-    position: relative;
-    overflow: hidden;
-}
-
-.grid__hijo--3{
-    background-color: darkmagenta;
-    grid-area: ele3;
-    position: relative;
-    overflow: hidden;
-}
-
-.grid__hijo--4{
-    background-color: crimson;
-    grid-area: ele4;
-    position: relative;
-    overflow: hidden;
-}
-
-.grid__hijo--5{
-    background-color: rgb(20, 220, 103);
-    grid-area: ele5;
-    position: relative;
-    overflow: hidden;
-}
 
 /* Tercera Seccion del main */
 
-.section3{
+.section3 {
     display: flex;
     justify-content: center;
-    margin:1rem ;
+    margin: 1rem;
 }
 
 
-.tarjeta{
+.tarjeta {
     background-color: rgb(255, 255, 255);
     color: black;
     text-align: center;
@@ -127,184 +133,114 @@
     overflow: hidden;
     display: inline-block;
     position: relative;
-  
-
-}
-
-.tarjeta{
-    overflow: hidden;
     transition: all 500ms ease;
+
+
+    &__imagen {
+        width: 100%;
+        height: 280px;
+        border-radius: 10px;
+        transition: all 500ms ease;
     }
-    
-.tarjeta__imagen{
-    transition: all 500ms ease;
-    }
-    
-.tarjeta__imagen:hover{
-    transform: scale(1.2);
+
+    &__imagen:hover {
+        transform: scale(1.2);
     }
 
+    &__titulo {
+        font-size: 20px;
+        color: $fontsubtitlecolor;
+        margin: 1px;
+    }
 
-.tarjeta__imagen{
-    width: 100%;
-    height: 280px;
-    border-radius: 10px;
-}
+    &__parrafo {
+        font-size: 12px;
+        color: #272822;
+        margin: 16px;
+    }
 
-.tarjeta__titulo{
-    font-size: 20px;
-    color: $fontsubtitlecolor;
-    margin: 1px;
-}
+    &__descuento {
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        padding: 10px;
+        border-radius: 30px;
+        font-size: 20px;
+        border: 1px solid rgb(150, 146, 146);
+        font-family: 'Source Code Pro', monospace;
+        background-color: #d4c2b9;
+    }
 
-.tarjeta__parrafo{
-    font-size: 12px;
-    color: #272822;
-    margin: 16px;
-}
+    &__boton {
+        background-color: #D4C2B9;
+        color: rgb(68, 64, 64);
+        border: 1px solid #969292;
+        border-radius: 1rem;
+        padding: 5px;
+        margin-top: 1rem;
+    }
 
-.tarjeta__descuento{
-   color: rgb(255, 255, 255);
-   position: absolute;
-   top: 8px;
-   right: 8px;
-   padding: 10px;
-   border-radius: 30px;
-   font-size: 20px;
-   border: 1px solid rgb(150, 146, 146);
-   font-family: 'Source Code Pro', monospace;
-   background-color: #d4c2b9;
-}
+    &__monto {
+        display: inline;
+        text-decoration: line-through;
+        color: red;
+    }
 
-.tarjeta__boton{
-    background-color:#D4C2B9;
-    color: rgb(68, 64, 64);
-    border: 1px solid #969292;
-    border-radius: 1rem;
-    padding: 5px;
-    margin-top: 1rem;
-}
-
-.tarjeta__monto{
-    display: inline;
-    text-decoration: line-through;
-    color: red;
-}
-
-.tarjeta__monto1{
-    display: inline;
-    padding: 5px;
-}
-
-.vibrate-1 {
-	-webkit-animation: vibrate-1 0.3s linear infinite both;
-	animation: vibrate-1 0.3s linear infinite both;
+    &__monto1 {
+        display: inline;
+        padding: 5px;
+    }
 }
 
 
+/* Cuarta seccion */
 
-@-webkit-keyframes vibrate-1 {
-    0% {
-      -webkit-transform: translate(0);
-              transform: translate(0);
-    }
-    20% {
-      -webkit-transform: translate(-2px, 2px);
-              transform: translate(-2px, 2px);
-    }
-    40% {
-      -webkit-transform: translate(-2px, -2px);
-              transform: translate(-2px, -2px);
-    }
-    60% {
-      -webkit-transform: translate(2px, 2px);
-              transform: translate(2px, 2px);
-    }
-    80% {
-      -webkit-transform: translate(2px, -2px);
-              transform: translate(2px, -2px);
-    }
-    100% {
-      -webkit-transform: translate(0);
-              transform: translate(0);
-    }
-  }
-  @keyframes vibrate-1 {
-    0% {
-      -webkit-transform: translate(0);
-              transform: translate(0);
-    }
-    20% {
-      -webkit-transform: translate(-2px, 2px);
-              transform: translate(-2px, 2px);
-    }
-    40% {
-      -webkit-transform: translate(-2px, -2px);
-              transform: translate(-2px, -2px);
-    }
-    60% {
-      -webkit-transform: translate(2px, 2px);
-              transform: translate(2px, 2px);
-    }
-    80% {
-      -webkit-transform: translate(2px, -2px);
-              transform: translate(2px, -2px);
-    }
-    100% {
-      -webkit-transform: translate(0);
-              transform: translate(0);
-    }
-  }
-  
-
-                        /* Cuarta seccion */
-
-.section4{
+.section4 {
     display: flex;
     justify-content: center;
-    margin:1rem ;
-}
-
-
-.section4__title{
-    color: rgb(255, 255, 255);
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 55px;
-}
-
-.section4__title b{
-    color: $fonttitlecolor;
-
-}
-
-.section4__tarjeta{
     margin: 1rem;
-    background-color: rgb(255, 255, 255);
-    border-radius: 16px;
-    border: 0px groove #aca7a4;
-    border-bottom: 5px ridge #918d8b;
-    width: 250px;
-    height: 285px;
-    text-align: center;
-    display: inline-block;
 
-}
+    &__title {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin-top: 1rem;
+        font-size: 55px;
+    }
 
-.section4__subtitle{
-    margin-top: 1px;
-}
+    &__title b {
+        color: $fonttitlecolor;
+
+    }
+
+    &__tarjeta {
+        margin: 1rem;
+        background-color: rgb(255, 255, 255);
+        border-radius: 16px;
+        border: 0px groove #aca7a4;
+        border-bottom: 5px ridge #918d8b;
+        width: 250px;
+        height: 285px;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+    &__subtitle {
+        margin-top: 1px;
+    }
 
 
-.section4__imagen{
-    width: 100%;
-    height: 150px;
-    border-radius: 16px;
-    object-fit: cover;
-    margin-bottom: 8px;
-}
+    &__imagen {
+        width: 100%;
+        height: 150px;
+        border-radius: 16px;
+        object-fit: cover;
+        margin-bottom: 8px;
+    }
 
 
-.section4__parrafo{
-    padding: 0.5rem;
+    &__parrafo {
+        padding: 0.5rem;
+    }
 }

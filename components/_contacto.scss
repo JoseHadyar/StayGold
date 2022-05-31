@@ -9,24 +9,25 @@
     &__contein{
         width: 90%;
         max-width: 450px;
-        background-color: #8f8f84;
+        background-color: #8b8f848f;
         padding: 30px;
         margin: 0 auto;
         margin-top: 50px;
         margin-bottom: 50px;
         border-radius: 5px;
         text-align: center;
-        box-shadow: 7px 13px 37px 3px #000;
+        box-shadow: 7px 13px 37px 3px rgb(255, 255, 255);
     }
 
     &__title{
         font-size: 40px;
         padding-bottom: 1rem;
+        color: rgb(0, 0, 0);
     }
 
     &__nickname{
         font-size: 1rem;
-        color: #353433;
+        color: #000000;
     }
 
     &__nickname1{
@@ -35,23 +36,24 @@
 
     &__cuadro{
         width: 50%;
-        background-color: #8f8f84;
+        background-color: #ffffff1c;
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 1rem;
-        border: 1px solid #5f5d5c;
+        border: 1px solid #313131;
         font-size: 1rem;
-        color: #3f3d3c;
+        color: #000000;
     }
 
     &__title2{
         padding-bottom: 1rem;
         font-size: 25px;
+        color: #000000;
     }
 
     &__titleopciones2{
-        background-color: #8F8F84;
-        border: 2px ridge #5F5D5C;
+        background-color: #ffffff1c;
+        border: 1px solid #313131;
         border-radius: 5px;
         color: #353433;
         margin-bottom: 1rem;
@@ -64,9 +66,9 @@
         height: 200px;
         margin-top: 2rem;
         margin: 0 auto;
-        color: rgb(38, 41, 41);
+        color: rgb(0, 0, 0);
         font-size: 1rem;
-        background-color: #8f8f84;
+        background-color: #ffffff1c;
         border: 1px solid;
         padding: 1rem;
             
@@ -75,11 +77,11 @@
     &__boton{
         width: 50%;
         height: 50%;
-        background-color: #5F5D5C;
+        background-color: #5f5d5c5d;
         padding: 1rem;
         margin-top: 1rem;
         font-size: 1rem;
-        border: none;
+        border: solid 1px
     }
 
 

@@ -1,121 +1,113 @@
-.productosbody{
-    background-image: url(../imagenes/fondoquenosirve9.jpg); 
+.productosbody {
+    background-image: url(../imagenes/fondoquenosirve9.jpg);
     background-size: cover;
-    
-} 
+
+}
 
 
 
-.encabezado{
+.encabezado {
     display: flex;
     align-items: center;
     min-height: 100vh;
     max-width: 1200px;
     margin: 0 auto;
+
+
+    &__title {
+        font-size: 75px;
+        color: $fonttitlecolor;
+        text-transform: uppercase;
+        box-shadow: 4px 3px 2px 1px;
+    }
+
+    &__img {
+        border-radius: 15rem;
+        max-width: 450px;
+    }
+
+    &__izq,
+    &__dere {
+        width: 50%;
+        text-align: center;
+        align-items: center;
+    }
 }
 
-.encabezado__title{
-    font-size: 75px;
-    color: $fonttitlecolor;
-    text-transform: uppercase;
-    box-shadow:4px 3px 2px 1px ;
-}
-
-.encabezado__img{
-    border-radius: 15rem;
-    max-width: 450px;
-}
-
-.encabezado__izq, .encabezado__dere{
-    width: 50%;
-    text-align: center;
-    align-items: center;
-}
-
-.producto__contenedor{
-     display: flex;
-    justify-content: center;
-    margin:1rem ;
-    flex-wrap: wrap;
-}
-
-
-
-
-.tarjeta__productos{
+.producto__contenedor {
     display: flex;
     justify-content: center;
-    margin:1rem ;
+    margin: 1rem;
     flex-wrap: wrap;
 }
 
-.tarjeta__productos{
+
+
+
+
+
+.tarjeta__productos {
+    display: flex;
     background-color: $bgcolor;
     color: black;
     text-align: center;
     width: 300px;
     height: 400px;
     padding: 1rem;
-    /* borde: grosor, tipo  color */
-
     margin: 1rem;
     overflow: hidden;
     display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+    &__imagen {
+        width: 100%;
+        height: 280px;
+    }
+
+    &__titulo {
+        font-size: 25px;
+        color: $fontsubtitlecolor;
+        margin: 3px;
+    }
 }
 
-.tarjeta__productos__imagen{
-    width: 100%;
-    height: 280px;
-    
 
-}
-
-.tarjeta__productos__titulo{
-    font-size: 25px;
-    color: $fontsubtitlecolor;
-    margin: 3px;
-}
-
-
-
-.encabezado div{
+.encabezado div {
     overflow: hidden;
 
 }
 
-.encabezado__img{
+.encabezado__img {
     transition: all 500ms ease;
 
 }
-        
-.encabezado__img:hover{
+
+.encabezado__img:hover {
     filter: saturate(180%);
 }
 
-.flex__container{
+.flex__container {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
     justify-content: center;
     overflow: hidden;
+
+    div {
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        text-align: center;
+        overflow: hidden;
+    }
 }
 
-.flex__container div{
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    text-align: center;
-    overflow: hidden;
-
-}
-        
-.conteiner__img{
+.conteiner__img {
     transition: all 500ms ease;
 
+    &__img:hover {
+        transform: scale(1.2);
+    }
 }
-        
-.conteiner__img:hover{
-    transform: scale(1.2);
-}
-    
-

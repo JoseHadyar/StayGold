@@ -1,5 +1,36 @@
-$bgcolor:rgba(100, 100, 100, 0.438);
+$bgcolor: rgba(100, 100, 100, 0.438);
 $fonttitlecolor: rgb(199, 240, 17);
 $fontsubtitlecolor: rgb(171, 168, 0);
 
 
+// Esto es un mapps
+
+$rrss: (
+    linkedin: #1d1d1dd2,
+    discord: #b155eece,
+    gmail: rgba(230, 34, 20, 0.867),
+    facebook: rgba(20, 52, 230, 0.867)
+);
+
+
+
+@each $name,
+$color in $rrss {
+    .#{$name} {
+        background-color: $color;
+        margin: 2rem;
+        padding: 15px;
+        color: #fff;
+        border-radius: 20px;
+        text-decoration: none;
+    }
+}
+
+//Esto es un extend
+.iconos {
+    max-width: 55px;
+    height: auto;
+    margin-right: 4rem;
+    padding: 1rem;
+    transform: scale(1.5);
+}
