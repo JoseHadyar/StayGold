@@ -9,59 +9,68 @@
 .formulario{
     width: 90%;
     max-width: 450px;
-    background-color: #8f8f84;
+    background-color: #8b8f848f;
     padding: 30px;
     margin: 0 auto;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 5px;
     text-align: center;
-    box-shadow: 7px 13px 37px 5px #000;
+    box-shadow: 7px 13px 37px 3px rgb(255, 255, 255);
 
     &__title{
-        font-size: 45px;
+        font-size: 40px;
         margin-bottom: 20px;
-       
+        color: #000;
     }
 
     &__control{
         width: 100%;
-        background-color: #8f8f84;
+        background-color: #ffffff1c;
         padding: 10px;
         border-radius: 4px;
         margin-bottom: 1rem;
-        border: 1px solid #5f5d5c;
+        border: 1px solid #000000;
         font-size: 1rem;
         color: #3f3d3c;
+        
     }
+    
+    ::placeholder { color: rgba(0, 0, 0, 0.726); }
 
     & p {
         height: 40px;
         font-size: 1rem;
-        margin-bottom: 1px;
-        margin-top: 1px;
+        margin: 1px;
+        color: #000;
+        padding-top: 0.5rem;
+
     }
 
     & a{
-        color: white;
+        color: rgb(255, 255, 255);
         text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.397);
     }
 
     & a:hover{
-        color: white;
         text-decoration: underline;
     }
 
     &__boton{
-        width: 100%;
-        background-color: #5F5D5C;
+        width: 50%;
+        height: 50%;
+        background-color: #5f5d5c5d;
         padding: 1rem;
-        margin-bottom: 1rem;
+        margin: 1rem;
         font-size: 1rem;
-        border: none;
-    
+        border: solid 1px
     }
     
+    &__boton:hover{
+        box-shadow: 1px 1px 10px 1px #000 ;
+    }
+
 
 }
 
