@@ -1,13 +1,26 @@
 
 
-let cA = parseInt (prompt("¿Cuantos estudiantes son?"))
-let eA
-let sA = 0 // Acumulador
-let n
 
-for(n=1; n<=cA;n++){
-    eA = parseInt(prompt("Ingrese la edad del Alumno" +n))
-    sA = sA + eA 
-}
+Swal.fire({
+    title: "¿Listos para convertirse en Golders?",
+    text: "Selecciona tu pais",
+    confirmButtonText: "¡Vamos!",
+    width: "60%",
+    padding: "2rem",
+    // grow: "fullscreen",
+    allowOutsideClick: false,
+    allowEscapeKey: false,
+    allowEnterKey: false,
+    stopKeydownPropagation: false,
 
-console.log(`El promedio de las edades de los ${cA} alumnos es: ${sA/cA}`);
+    input: "select",
+    inputPlaceholder:"Pais",
+    inputValue:"",
+    inputOptions:{
+        argentina: "Argentina",
+        venezuela: "Venezuela",
+    },
+
+
+
+})
